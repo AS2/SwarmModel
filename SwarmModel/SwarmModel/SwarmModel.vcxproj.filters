@@ -13,5 +13,51 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Файлы ресурсов\glut manager">
+      <UniqueIdentifier>{8a26264b-42bc-47d4-9603-4253dff4cd9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\myMath">
+      <UniqueIdentifier>{183aa37a-9b21-469c-9b86-bb05dfcd6deb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\glut - 2d boids swarm drawer">
+      <UniqueIdentifier>{7bfd1e1d-279a-4830-ad6b-5ec956ad3a48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\2d boids">
+      <UniqueIdentifier>{93b412ea-7dbd-49e4-b20a-f027869ed727}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="glut_manager.cpp">
+      <Filter>Файлы ресурсов\glut manager</Filter>
+    </ClCompile>
+    <ClCompile Include="glut_swarm.cpp">
+      <Filter>Файлы ресурсов\glut - 2d boids swarm drawer</Filter>
+    </ClCompile>
+    <ClCompile Include="boids2d.cpp">
+      <Filter>Файлы ресурсов\2d boids</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="glut_manager.h">
+      <Filter>Файлы ресурсов\glut manager</Filter>
+    </ClInclude>
+    <ClInclude Include="boids2d.h">
+      <Filter>Файлы ресурсов\2d boids</Filter>
+    </ClInclude>
+    <ClInclude Include="glut_swarm.h">
+      <Filter>Файлы ресурсов\glut - 2d boids swarm drawer</Filter>
+    </ClInclude>
+    <ClInclude Include="matr3.h">
+      <Filter>Файлы ресурсов\myMath</Filter>
+    </ClInclude>
+    <ClInclude Include="vec3.h">
+      <Filter>Файлы ресурсов\myMath</Filter>
+    </ClInclude>
+    <ClInclude Include="vec2.h">
+      <Filter>Файлы ресурсов\myMath</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

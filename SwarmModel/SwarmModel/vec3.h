@@ -24,7 +24,7 @@ private:
 public:
   // constructor #1
   vec3() {
-    X = Y = 0;
+    X = Y = Z = 0;
   }
 
   // constructor #2

@@ -2,25 +2,16 @@
 #define __glut_swarm_h__
 
 #include "glut_manager.h"
-#include "birds_swarm.h"
+#include "boids2d.h"
 #include "vec3.h"
 
-class glutSwarm : public glutDraw {
-private:
-  vec3 camera_coord;
-  swarm birdsSwarm;
+class glutSwarm2d : public glutManager {
 public:
-  glutSwarm(int  argc, int* argv[], int w, int h);
-
-  void KeyboardFunc(unsigned char key, int x, int y);
-  void SpecialKeyboardFunc(unsigned char key, int x, int y);
-  void DisplayFunc(void);
-  void MakeMenu(void);
+  glutSwarm2d(int  argc, char* argv[], int w, int h);
 
   void SetCameraCoord(int &x, int &y, int &z);
 
   void AddSwarm(int birdsCnt);
-  void Start(void);
 };
 
 #endif  // __glut_manager_h__
